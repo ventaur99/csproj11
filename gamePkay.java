@@ -24,7 +24,6 @@ public class gamePkay extends JFrame {
     }
 }
 
-// Panel to draw the background
 class GameScreen extends JPanel {
     private Image backgroundImage;
 
@@ -35,7 +34,7 @@ class GameScreen extends JPanel {
 
     @Override
     protected void paintComponent(Graphics g) {
-        super.paintComponent(g); // **FIX: Makes sure panel repaints properly**
+        super.paintComponent(g); 
         g.drawImage(backgroundImage, 0, 0, getWidth(), getHeight(), this);
     }
 }
