@@ -49,13 +49,13 @@ class GamePanel extends JPanel {
         add(startButton);
         add(settingsButton);
 
-        // **FIX: Start button now properly opens Gameplay**
+       
         startButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 System.out.println("Game Started!");
-                parentFrame.dispose();  // Close the main menu
-                new Gameplay();  // Open the gameplay window
+                parentFrame.dispose(); 
+                new Gameplay(); 
             }
         });
 
