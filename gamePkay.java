@@ -10,7 +10,7 @@ import java.awt.*;
 public class gamePkay extends JFrame {
     public gamePkay() {
         setTitle("GODS/GODESSES");
-        setSize(800, 490);
+        setSize(1000, 700);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
